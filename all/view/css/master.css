@@ -1,0 +1,39 @@
+body {
+  margin: 0 auto;
+}
+.headder{
+  width:100%;
+  text-align: center;
+  background-color: yellow;
+}
+.main_container{
+  height: 720px;
+  display:flex;
+  justify-content: space-around;
+}
+#row1{
+  width:50%;
+  background-color: skyblue;
+}
+#dates{
+  height:60%;
+  overflow: scroll;
+}
+#row2{
+  width:30%;
+  background-color: red;
+}
+.row1_foot{
+  width:100%;
+  height: 20%;
+  display:inline-flex;
+  justify-content:space-around;
+  text-align: center;
+}
+.move{
+  height: 100%;
+}
+.row{
+  height:550px;
+}
+.footter{}

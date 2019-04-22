@@ -1,0 +1,18 @@
+users
+  user_id int autoincrement primarykey ユーザーid
+  user_name varchar ユーザー名
+  password varchar(60)　パスワード
+  last_login timestamp
+  first_make timestamp
+
+categorynames
+  name1,2,3,4,5 varchar default(光熱水費、食費、娯楽費、家賃、その他)
+  user_id int (usersのuser_idと関連)
+
+payments
+  user_id　int(usersのuser_idと関連)
+  in_out int (in 0,out 1)
+  comment varchar(128) 
+  category_name_id int(1,2,3,4,5)
+  update_date timestamp
+  payment int(お金)    　
